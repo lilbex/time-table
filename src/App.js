@@ -1,18 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-import AllSubject from './components/timetable/days/AllSubject';
-import SingleClass from './components/timetable/singleclass/SingleClass';
-import Navigation from './components/navbar/Navbar';
+import React from 'react';
+import HomePage from './pages/home/Home'
+import './App.css'
 
 function App() {
   return (
     <div className="App">
-      <Navigation />
-      <header className="App-header"> 
-      
-      Welcome to automatic time-table generator website
-      </header>
+      <HomePage />
     </div>
+      
   );
 }
 
