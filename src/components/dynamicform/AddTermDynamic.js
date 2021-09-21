@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export const AddTerm =() => {
+export const AddTermDynamic =() => {
   const [inputList, setInputList] = useState([{ term: "",}]);
 
   // handle input change

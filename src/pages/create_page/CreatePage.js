@@ -1,7 +1,8 @@
 import React from 'react'
 import Navigation from "../../components/navbar/Navbar"
 import {SideNav} from "../../components/navbar/SideNav"
-import {AddTerm} from "../../components/dynamicform/AddTerm"
+import {AddTerm} from "../../components/add_term_form/AddTerm"
+
 export const CreatePage = () => {
   return (
     <div className="jumbotron" style={{backgroundColor:"grey", height:"100vh", }}>

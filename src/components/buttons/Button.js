@@ -11,15 +11,15 @@ const ButtonWithArrow = (props) => {
   )
 }
 
-const ButtonWithoutArrow = () => {
+const ButtonWithoutArrow = (props) => {
   return (
-    <button  style={iconWithoutArrow}> Add Term </button>
+    <button  style={ButtonWithoutArrowStyle}> {props.title} </button>
   )
 }
 
 
 const button = {width:"200px", backgroundColor:"white", borderColor:"transparent", textAlign:"left"}
-const icon = {paddingLeft:"15px", marginLeft:"60px"}
-const iconWithoutArrow = {alignSelf:"center"}
+const icon = { marginLeft:"30px"}
+const ButtonWithoutArrowStyle = {width:"200px", backgroundColor:"white", borderColor:"transparent", textAlign:"left", padding:"5px", margin:"10px"}
 
 export {ButtonWithArrow, ButtonWithoutArrow}
