@@ -32,14 +32,14 @@ function Dynamic() {
             <input
             className="form-control"
               name="firstName"
-			  placeholder="Enter First Name"
+			        placeholder="Enter First Name"
               value={x.firstName}
               onChange={e => handleInputChange(e, i)}
             />
             <input
               className="form-control"
               name="lastName"
-			  placeholder="Enter Last Name"
+			        placeholder="Enter Last Name"
               value={x.lastName}
               onChange={e => handleInputChange(e, i)}
             />
