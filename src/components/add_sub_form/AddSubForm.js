@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 function AddSubForm() {
-  const [inputList, setInputList] = useState([{ firstName: "", lastName: "" }]);
+  const [inputList, setInputList] = useState([{ subject: "", noOfTimes: "",Teacher: "" }]);
 
   // handle input change
   const handleInputChange = (e, index) => {
@@ -20,7 +20,7 @@ function AddSubForm() {
 
   // handle click event of the Add button
   const handleAddClick = () => {
-    setInputList([...inputList, { firstName: "", lastName: "" }]);
+    setInputList([...inputList, { subject: "", noOfTimes: "",Teacher: "" }]);
   };
 
   return (
@@ -31,16 +31,23 @@ function AddSubForm() {
           <div className="form-group" style={Input}>
             <input
             className="form-control"
-              name="firstName"
+              name="subject"
 			        placeholder="Subject"
-              value={x.firstName}
+              value={x.subject}
               onChange={e => handleInputChange(e, i)}
             />
             <input
               className="form-control"
-              name="lastName"
+              name="noOfTimes"
 			        placeholder="No of time per week"
-              value={x.lastName}
+              value={x.noOfTimes}
+              onChange={e => handleInputChange(e, i)}
+            />
+            <input
+              className="form-control"
+              name="Teacher"
+			        placeholder="No of time per week"
+              value={x.Teacher}
               onChange={e => handleInputChange(e, i)}
             />
             <div className="btn-box">

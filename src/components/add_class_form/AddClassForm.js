@@ -32,7 +32,7 @@ export const AddClassForm =() => {
             <input
               className="form-control"
               name="term"
-			        placeholder="Enter Term..."
+			        placeholder="Enter Class..."
               value={x.term}
               onChange={e => handleInputChange(e, i)}
             />

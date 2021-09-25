@@ -4,10 +4,9 @@ import { ButtonWithArrow } from '../buttons/Button'
 export const SideNav = () => {
   return (
         <div style={{display:"flex", flexDirection:"column", padding:"5px"}}>
-          <div style={btnContainer}><ButtonWithArrow title="Add Term" /></div>
-          <div style={btnContainer}> <ButtonWithArrow title="Add/See Classes" /></div>
-          <div style={btnContainer}> <ButtonWithArrow title="Add Subject" /></div>
-          <div style={btnContainer}><ButtonWithArrow title="Add Teacher" /></div>
+          <a href="/create"><div style={btnContainer}><ButtonWithArrow title="Add Term" /></div></a>
+          <a href="/addclass"><div style={btnContainer}> <ButtonWithArrow title="Add/See Classes" /></div></a>
+          <a href="/addsubject"><div style={btnContainer}> <ButtonWithArrow title="Add Subject" /></div></a>
         </div>
   )
 }

@@ -4,10 +4,11 @@ import {SideNav} from "../../components/navbar/SideNav"
 import {Terms} from "../../components/terms/Terms"
 import AddSubForm from "../../components/add_sub_form/AddSubForm"
 import {ClassEntered} from "../../components/entered_class/Class"
+import "../../utils/Fonts.css"
 
 export const AddSubject = () => {
   return (
-    <div className="jumbotron" style={{backgroundColor:"grey", height:"100vh", }}>
+    <div className="font" style={{backgroundColor:"grey", height:"100vh", }}>
         <Navigation />
         <div className="container">
         <div style={{display:'flex',}}>

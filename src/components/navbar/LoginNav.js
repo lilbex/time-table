@@ -5,7 +5,7 @@ import "./loginnav.css"
 export const LoginNav = () => {
   return (
     <div className="logincontainer">
-        <div><AiOutlineHome className="home-icon" color="white" /></div>
+        <div><a href="/"><AiOutlineHome className="home-icon" color="white" /></a></div>
         <div>
           <form className="form" >
              <input type="email" aria-describedby="emailHelp" className="form-input" placeholder="Email" />
