@@ -30,6 +30,9 @@ export const Authentication = (props) => {
         </p>
         <hr style={{color:"white"}}/>
         <p style={{ color: "white", textAlign: "center", fontSize:"50px" }}>&#128519;&#128525;</p>
+        <h3 style={{ color: "white", textAlign: "center" }}>
+         All Free and Open Source
+        </h3>
       </div>
       <div>
         <div className="shadow">
