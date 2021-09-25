@@ -12,9 +12,24 @@ export const Authentication = (props) => {
           Create a Time-table
         </h3>
         <h4 style={{ color: "white", textAlign: "center" }}>Stress free</h4>
-        <p style={{ color: "white", textAlign: "center" }}>
+        <h3 style={{ color: "white", textAlign: "center" }}>
           As many time as you want
+        </h3>
+        <hr style={{color:"white"}}/>
+        <p style={{ color: "white", textAlign: "center" }}>
+          You can Edit your entries and generate new time-table again
         </p>
+        <hr style={{color:"white"}}/>
+        <p style={{ color: "white", textAlign: "center" }}>
+          Each generation is always better than the previous
+        </p>
+        <hr style={{color:"white"}}/>
+        <p style={{ color: "white", textAlign: "center" }}>
+          We also give you suggestions to improve your time-table
+          and make it more efficient. 
+        </p>
+        <hr style={{color:"white"}}/>
+        <p style={{ color: "white", textAlign: "center", fontSize:"50px" }}>&#128519;&#128525;</p>
       </div>
       <div>
         <div className="shadow">
